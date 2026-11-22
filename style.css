@@ -1,0 +1,44 @@
+body {
+    padding: 20px 40px;
+}
+.box{
+    background-color: rgb(218, 230, 230);
+    padding: 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+}
+.flex-section{
+    display: flex;
+    height: 300px;
+    gap: 20px;
+    justify-content: center;
+    padding: 30px;
+}
+.flex-section .box{
+    width: 100px;
+}
+.grid-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    height: 600px;
+    margin: 0 auto 50px auto;
+}
+.circle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;     
+  height: 100vh;           
+}
+
+.circle {
+  width: 120px;
+  height: 120px;
+  background-color: rgb(218, 230, 230);
+  border-radius: 50%;      
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
